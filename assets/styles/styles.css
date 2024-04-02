@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
+  height: 100px;
+  width: 100%;
+  color: white;
+}
+
+.footer {
+  background-image: url("/Projet-Fandom-ATLUS/assets/images/bluebg.jpg");
+  background-size: cover;
+  box-shadow: 0 0 0.1em black;
+  min-height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-fandom {
+  height: 3vh;
+}
+
+.logo-fandom2 {
+  height: 5.7vh;
+}
+
+.logos-socials {
+  height: 2vh;
+}
+
+.overview {
+  padding: 10px 10px;
+}
+
+.store {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-store {
+  height: auto;
+  width: 10vw;
+}
+
+.apps {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.copyright {
+  background-color: black;
+  text-align: center;
+  font-size: 1rem;
+  padding: 10px 10px;
+  box-shadow: 0 0 0.1em black;
+}
+
+a:link {
+  color:darkorange;
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color:darkorange;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+a:active {
+  text-decoration: none;
+  color:darkorange;
+}
