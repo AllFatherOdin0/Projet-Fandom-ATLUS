@@ -1,0 +1,126 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+/*Barre de navigation*/
+.navBar{
+    display: flex;
+    background-image: url("images/bluebgnavbarre.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1vw;
+    border-bottom: 3px solid white;
+}
+
+.logo img{
+    width : 10vw;
+    height : 10vh;
+    border-color: 1px white solid ;
+}
+
+.jackFrost img{
+    width : 5vw;
+    height : 10vh;
+    margin-bottom: -0.6vh;
+}
+
+.bouton{
+    border-style: none;
+    border-radius: 3vw;
+    background-color: rgb(230, 2, 20, 0.9);
+    background:linear-gradient(to top right, rgba(230, 2, 20),rgba(230,2,20,0.55));
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    border-top: 1px solid rgb(230, 2, 20,1);
+    border-bottom: 1px solid rgb(230, 2, 20,1);
+    color : white;
+    font-size: 1.7vw;
+    padding : 0.5vh 1vw 0.5vh 1vw;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.bouton:hover{
+    letter-spacing: 2px;
+}
+
+/*Main*/
+.mainAccueil{
+    background-size: cover;
+    display: flex;
+    background-image: url("images/background_Index.jpg");
+    min-height : 89.2vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.presentation img{
+    width:1.6vw;
+    height:4.5vh;
+    margin-left: 1vw;
+}
+
+.titre{
+    display: flex;
+    align-items: center;
+}
+
+.titre h1{
+    font-variant: small-caps;
+    font-size: 1.5vw;
+}
+
+.rules h1, b{
+    font-variant: small-caps;
+}
+
+.containerAccueil{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(17, 38, 87, 0.8);
+    border: 4px solid;
+    border-radius: 20px;
+    width : 95vw;
+    min-height : 75vh;
+    color: white;
+    margin : 6vh 2.3vw;
+}
+
+.containerAccueil h1,p{
+    margin-left : 1vw;
+}
+
+.presentation{
+    width : 60vw;
+}
+
+.presentation p{
+    font-size: 0.94vw;
+    line-height: 3.2vh;
+}
+
+.rules{ 
+    width : 30vw; 
+    min-height : 65vh;
+    background: linear-gradient(to top right, rgb(198, 13, 37), rgb(81, 0, 67));
+    border-radius: 20px;
+    border: 4px solid;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    margin-right: 3vw;
+    margin-left : 3vw;
+}
+
+.rules h1{
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.rules li{
+    font-size: 0.84vw;
+    line-height: 4vh;
+    margin-right:1vw;
+}
