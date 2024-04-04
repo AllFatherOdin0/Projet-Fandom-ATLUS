@@ -7,8 +7,6 @@
     <link rel="stylesheet" href="assets/styles/styles.css">
 </head>
 <body>
-    <div class="bg-img">
-    </div>
     <header>
         
     </header>
@@ -20,8 +18,8 @@
                     <p>Contactez notre équipe si vous avez des propositions ou des signalements d'erreurs.</p>
                 </div>
                 <div>
-                    <form action="">
-                        <input type="email" placeholder="E-mail" required>
+                    <form action="/action_page.php" method="get">
+                        <input name="email" type="email" placeholder="E-mail" autocomplete="email" required>
                         <br><br>
                         <select name="raison" id="raison-contact" required>
                             <option value="">--Choisissez une option--</option>
@@ -30,9 +28,9 @@
                             <option value="bug">Signalement de bug</option>
                         </select>
                         <br><br>
-                        <label for="">Précisez :</label>
+                        <label for="précisions">Précisez :</label>
                         <br><br>
-                        <textarea name="" id="" cols="30" rows="10"></textarea required>
+                        <textarea name="précisions" id="précisions" cols="30" rows="10" required></textarea>
                         <br><br>
                         <button class="envoyer" type="submit">ENVOYER</button>
                     </form>
@@ -59,7 +57,7 @@
                 <br><br>
                 <a href="#">What is Fandom?</a>
                 <br><br>
-                <a href="#">Contact</a>
+                <a href="contact.html">Contact</a>
                 <br><br>
                 <a href="#">Terms of Use</a>
                 <br><br>
