@@ -8,34 +8,41 @@
 </head>
 <body>
     <!--Barre de navigation-->
-    <div class = "navBar">
+    <div id="nav" class = "navBar">
         <div class ="logo">
             <img src= "images/logoCont.png">
         </div>
-        <a href ="accueil.html"><button id = "buttonAccueil" class = "bouton" >Accueil</button></a>
-        <a href ="studio.html"><button id = "buttonStudio" class = "bouton">Studio</button></a>
-        <a href ="jeux.html"><button id = "buttonJeux" class = "bouton">Jeux</button></a>
-        <a href ="contact.html"><button id = "buttonContact" class = "bouton">Contact</button></a>
+        <div class ="boutons ">
+            <a href ="accueil.html"><button id = "buttonAccueil" class = "bouton" >Accueil</button></a>
+            <a href ="studio.html"><button id = "buttonStudio" class = "bouton">Studio</button></a>
+            <a href ="jeux.html"><button id = "buttonJeux" class = "bouton">Jeux</button></a>
+            <a href ="contact.html"><button id = "buttonContact" class = "bouton">Contact</button></a> 
+        </div>
+         <div id ="icons" onclick="openMenuMobile()"></div>
         <div class ="jackFrost">
             <img src = "images/frost.png">
         </div>
+       
     </div>
+
 
 <!--Main-->
     <div class="mainAccueil">
         <div class ="containerAccueil">
             <div class ="presentation">
-                <div class ="titre">
-                    <img src ="images/Fandom_heart-logo.png">
-                    <h1>Qui sommes-nous ?</h1>
-                </div>
+                <section>
+                    <div class ="titre">
+                        <img src ="images/Fandom_heart-logo.png">
+                        <h1>Qui sommes-nous ?</h1>
+                    </div>
                     <p>
                         Bienvenue sur <b>Fandom Atlus</b>, votre source inégalée pour tout ce qui concerne le studio Atlus et ses jeux extraordinaires. <br>
                         Nous sommes animés par une passion profonde pour l'univers créatif et captivant de ce studio légendaire, et notre objectif est de partager cette passion avec vous.<br>
                         Chez <b>Fandom Atlus</b>, nous sommes convaincus que les jeux vidéo ont le pouvoir de nous inspirer, de nous divertir et de nous rassembler.
                         <br>
-                        
                     </p>
+                </section>
+                <section>
                     <div class ="titre">
                         <img src ="images/Fandom_heart-logo.png">
                         <h1>Notre mission ?</h1>
@@ -45,6 +52,8 @@
                         Notre engagement premier est de vous comprendre, de vous informer, et vous divertir.<br>
                         Que vous soyez un vétéran de longue date ou un nouveau venu dans l'univers d'Atlus, notre communauté accueillante est là pour vous accompagner dans votre exploration.
                     </p>
+                </section>
+                <section>
                     <div class ="titre">
                         <img src ="images/Fandom_heart-logo.png">
                         <h1>Ce que l'on trouve sur le site ?</h1>
@@ -53,6 +62,7 @@
                         Sur <b>Fandom Atlus</b> vous trouverez une mine d'informations sur le studio et ses jeux, ainsi qu'une communauté de passionés prêts à partager leurs connaissances et leurs expériences.<br>
                         Alors n'hésitez pas et venez explorer avec nous ce qui rend chaque jeu d'Atlus si unique, et célébrons ensemble l'héritage extraordinaire de ce studio emblématique. 
                     </p>
+                </section>
             </div>
             <div class ="rules">
                 <h1>Règles</h1>
@@ -67,5 +77,11 @@
             </div>
         </div>
     </div>
+<!--Script Js menu mobile responsive-->
+    <script>
+        function openMenuMobile(){
+            document.getElementById("nav").classList.toggle("active");
+        }
+    </script>
 </body>
 </html>
