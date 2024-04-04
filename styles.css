@@ -1,0 +1,26 @@
+
+.container {
+    background-size: cover;
+    display: flex;
+    background-image: url("img/background_Index.jpg");
+    height : 89.2vh;
+    justify-content: space-between;
+    
+}
+
+.jeu-1,
+.jeu-2,
+.jeu-3 {
+    background-color: rgba(14, 41, 103, 0.9);
+    border: 4px solid rgba(14, 41, 103, 0.9);
+}
+.col-Jeu {
+    display: flex;
+    justify-content: space-between;
+}
+.text-jeu {
+    columns: 70px 1;
+}
+
+
+git add -m git commit -m "" git push
