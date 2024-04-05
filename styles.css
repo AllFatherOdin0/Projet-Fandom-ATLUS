@@ -1,8 +1,9 @@
-body{
+body {
     margin: 0%;
     padding: 0%;
 }
-.navBar{
+
+.navBar {
     display: flex;
     background-image: url("img/bluebgnavbarre.jpg");
     background-repeat: no-repeat;
@@ -12,45 +13,46 @@ body{
     padding-left: 1vw;
     border-bottom: 3px solid white;
 }
-.logo img{
-    width : 10vw;
-    height : 10vh;
-    border-color: 1px white solid ;
+
+.logo img {
+    width: 192px;
+    height: 92px;
+    border-color: 1px white solid;
 }
 
-.jackFrost img{
-    width : 5vw;
-    height : 10vh;
-    margin-bottom: -0.6vh;
+.jackFrost img {
+    width: 96px;
+    height: 92px;
+    margin-bottom: -0.9vh;
 }
 
-.boutons{
-    width:55%;
+.boutons {
+    width: 55%;
     display: flex;
     justify-content: space-between;
 }
 
-.bouton{
+.bouton {
     border-style: none;
     border-radius: 3vw;
     background-color: rgba(230, 2, 20, 0.9);
-    background:linear-gradient(to top right, rgb(230, 2, 20),rgba(230,2,20,0.55));
+    background: linear-gradient(to top right, rgb(230, 2, 20), rgba(230, 2, 20, 0.55));
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
-    border-top: 1px solid rgb(230, 2, 20,1);
-    border-bottom: 1px solid rgb(230, 2, 20,1);
-    color : white;
+    border-top: 1px solid rgb(230, 2, 20, 1);
+    border-bottom: 1px solid rgb(230, 2, 20, 1);
+    color: white;
     font-size: 2rem;
-    padding : 0.5vh 1vw 0.5vh 1vw;
+    padding: 0.5vh 1vw 0.5vh 1vw;
     text-align: center;
     transition: 0.5s;
 }
 
-.bouton:hover{
+.bouton:hover {
     letter-spacing: 2px;
 }
 
-.icons{
-    display:none;
+.icons {
+    display: none;
 
 }
 
@@ -58,9 +60,9 @@ body{
 main {
     background: url("img/background_Index.jpg") no-repeat center fixed;
     background-size: cover;
-    height : auto;
+    height: auto;
     justify-content: space-between;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 div.presentation-jeu {
@@ -83,32 +85,40 @@ div.jeu-3 {
 .page-h2,
 .Title,
 .text-jeu {
-    Font-size: 1.2rem;
-    line-height: 3.2vh;
+    font-variant: small-caps
 }
 
-.col-Jeux-1, 
+.Title,
+.page-h2 {
+    font-size: xx-large;
+}
+
+.col-Jeux-1,
 .col-Jeux-2,
 .col-Jeux-3 {
-   flex-direction: column;
+    flex-direction: column;
+}
+
+p::first-letter {
+    font-size: x-large;
 }
 
 footer {
     height: 100px;
     width: 100%;
     color: white;
-    
-  }
-  
-  .footer {
+
+}
+
+.footer {
     background-image: url("/assets/images/bluebg.jpg");
     background-size: cover;
     box-shadow: 0 0 0.1em black;
     display: flex;
     justify-content: center;
-  }
-  
-  .socials {
+}
+
+.socials {
     display: flex;
     flex-direction: column;
     width: 25%;
@@ -116,34 +126,34 @@ footer {
     margin-right: 5%;
     margin-top: 15px;
     margin-bottom: 15px;
-  }
-  
-  .logo-fandom {
-   height: 50px;
-   width: 175px;
-  }
-  
-  .logo-fandom2 {
+}
+
+.logo-fandom {
+    height: 50px;
+    width: 175px;
+}
+
+.logo-fandom2 {
     height: 80px;
-  }
-  
-  .div-logo-socials {
+}
+
+.div-logo-socials {
     margin-top: 10px;
-  }
-  
-  .logos-socials {
+}
+
+.logos-socials {
     height: 30px;
-  }
-  
-  .overview {
+}
+
+.overview {
     width: 25%;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 15px;
     margin-bottom: 15px;
-  }
-  
-  .fandom-apps {
+}
+
+.fandom-apps {
     display: flex;
     flex-direction: column;
     width: 25%;
@@ -151,113 +161,171 @@ footer {
     margin-right: 5%;
     margin-top: 15px;
     margin-bottom: 15px;
-  }
-  
-  .appstore {
+}
+
+.appstore {
     display: flex;
     justify-content: flex-start;
     margin-top: 15px;
     margin-bottom: 15px;
-  }
-  
-  .store {
+}
+
+.store {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin-left: 10px;
-  }
-  
-  .logo-store {
-   height: 38px;
-   width: 130px;
-  }
-  
-  .copyright {
+}
+
+.logo-store {
+    height: 38px;
+    width: 130px;
+}
+
+.copyright {
     background-color: black;
     text-align: center;
     font-size: 1rem;
     padding: 10px 10px;
     box-shadow: 0 0 0.1em black;
-  }
-  
-  a:link {
-    color:darkorange;
+}
+
+a:link {
+    color: darkorange;
     text-decoration: none;
-  }
-  
-  a:visited {
+}
+
+a:visited {
     text-decoration: none;
-    color:darkorange;
-  }
-  
-  a:hover {
+    color: darkorange;
+}
+
+a:hover {
     text-decoration: none;
     color: white;
-  }
-  
-  a:active {
+}
+
+a:active {
     text-decoration: none;
-    color:darkorange;
-  }
-  
-  
+    color: darkorange;
+}
 
 
-@media screen and (max-width :768px){
+
+
+@media screen and (max-width :768px) {
+
     /*Navbar*/
-    #icons{
-        display:block; 
+    #icons {
+        display: block;
     }
 
-    #icons:before{
-        content :"\2630";
+    #icons:before {
+        content: "\2630";
         color: white;
-        font-size:8vw ;
+        font-size: 8vw;
         margin-right: 6.5vw;
-       
+
     }
 
-    .active #icons:before{
+    .active #icons:before {
         content: "\2613";
     }
 
-    .boutons{
+    .boutons {
         position: absolute;
         top: 10vh;
-        right:0;
-        left:-100%;
-        width : 20vw;
-        height : 50vh;
+        right: 0;
+        left: -100%;
+        width: 20vw;
+        height: 50vh;
         flex-direction: column;
-        justify-content:initial;
-        z-index:1;
-        align-items: center; 
+        justify-content: initial;
+        z-index: 1;
+        align-items: center;
         transition: 0.25s;
     }
 
-    .bouton{
+    .bouton {
         font-size: 1.5rem;
-        margin-top : 0.5vh;
-        margin-bottom : 0.5vh;
-    }
-    .active  .boutons{
-        left:auto;
+        margin-top: 0.5vh;
+        margin-bottom: 0.5vh;
     }
 
-    .jackFrost{
+    .active .boutons {
+        left: auto;
+    }
+
+    .jackFrost {
         display: none;
     }
 
+
     /*Main*/
-    .presentation-jeu{
+    .presentation-jeu {
         flex-direction: column;
-        margin : 2vh 1.6vw;
+        margin: 2vh 1.6vw;
     }
 
     .presentation {
-        width:fit-content;
+        width: fit-content;
     }
 
+    /*footer*/
+    footer {
+        height: 75px;
+    }
 
+    .socials {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 
+    .logo-fandom {
+        height: 30px;
+        width: 105px;
+    }
+
+    .logo-fandom2 {
+        height: 48px;
+    }
+
+    .div-logo-socials {
+        margin-top: 5px;
+    }
+
+    .logos-socials {
+        height: 15px;
+    }
+
+    .overview {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .fandom-apps {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .appstore {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .store {
+        margin-left: 5px;
+    }
+
+    .logo-store {
+        height: 23px;
+        width: 78px;
+    }
+
+    .copyright {
+        font-size: 0.8rem;
+        padding: 5px 5px;
+    }
 }
