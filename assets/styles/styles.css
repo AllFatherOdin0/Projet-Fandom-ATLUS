@@ -57,14 +57,13 @@ main {
 }
 
 .notable-franchises {
-  display: flex;
-  flex-direction: column;
   padding: 30px 30px 30px 30px;
   font-size: 1.25rem;
 }
 
 .jeux-franchises {
   display: flex;
+  justify-content: space-evenly;
   background-color: #163466;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -74,15 +73,17 @@ main {
   box-shadow: 0 0 0.25em black;
 }
 
+.franchises {
+  padding: 15px 15px 15px 15px;
+}
+
+
 .franchises-img {
   height: 200px;
   width: 150px;
   box-shadow: 0 0 0.25em black;
 }
 
-.franchises {
-  padding: 15px 15px 15px 15px;
-}
 
 .form-contact {
   display: flex;
@@ -260,11 +261,91 @@ a:active {
   color:darkorange;
 }
 
+@media screen and (max-width: 1200px) {
+  #studio-tokyo {
+    height: 200px;
+  }
+  
+  #studio-history {
+    height: 200px;
+    width: 300px;
+  }
 
+  .jeux-franchises {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    border-radius: 25px;
+  }
+  
+  .franchises {
+    padding: 10px 10px 10px 10px;
+  }
+  
+  
+  .franchises-img {
+    height: 150px;
+    width: 112.5px;
+    box-shadow: 0 0 0.25em black;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  #studio-tokyo {
+    height: 150px;
+  }
+  
+  #studio-history {
+    height: 150px;
+    width: 225px;
+  }
+  
+  .franchises-img {
+    height: 125px;
+    width: 93.75px;
+    box-shadow: 0 0 0.25em black;
+  }
+}
 
 @media screen and (max-width: 768px) {
   body {
     font-size: 0.6rem;
+  }
+
+  
+  #atlus-h1 {
+    width: 100%;
+    height: 100px;
+    box-shadow: 0 0 0.25em black;
+  }
+
+  .about-atlus {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .history {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .jeux-franchises {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+  }
+  
+  .franchises {
+    padding: 10px 10px 10px 10px;
+  }
+  
+  
+  .franchises-img {
+    height: 200px;
+    width: 150px;
   }
 
   .form-contact {
