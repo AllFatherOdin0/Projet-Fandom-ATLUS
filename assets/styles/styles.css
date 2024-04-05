@@ -63,6 +63,27 @@ main {
   font-size: 1.25rem;
 }
 
+.jeux-franchises {
+  display: flex;
+  background-color: #163466;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 25px;
+  box-shadow: 0 0 0.25em black;
+}
+
+.franchises-img {
+  height: 200px;
+  width: 150px;
+  box-shadow: 0 0 0.25em black;
+}
+
+.franchises {
+  padding: 15px 15px 15px 15px;
+}
+
 .form-contact {
   display: flex;
   align-items: center;
