@@ -80,7 +80,9 @@ div.jeu-3 {
     padding: 10px 10px 10px 10px;
 }
 
-
+.image-jeu {
+    justify-content: center;
+}
 
 .page-h2,
 .Title,
