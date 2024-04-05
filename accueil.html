@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fandom ATLUS</title>
+    <link rel="stylesheet" href ="styles.css">
+</head>
+<body>
+    <!--Barre de navigation-->
+    <div id="nav" class = "navBar">
+        <div class ="logo">
+            <img src= "images/logoCont.png">
+        </div>
+        <div class ="boutons ">
+            <a href ="accueil.html"><button id = "buttonAccueil" class = "bouton" >Accueil</button></a>
+            <a href ="studio.html"><button id = "buttonStudio" class = "bouton">Studio</button></a>
+            <a href ="jeux.html"><button id = "buttonJeux" class = "bouton">Jeux</button></a>
+            <a href ="contact.html"><button id = "buttonContact" class = "bouton">Contact</button></a> 
+        </div>
+         <div id ="icons" onclick="openMenuMobile()"></div>
+        <div class ="jackFrost">
+            <img src = "images/frost.png">
+        </div>
+       
+    </div>
+
+
+<!--Main-->
+    <div class="mainAccueil">
+        <div class ="containerAccueil">
+            <div class ="presentation">
+                <section>
+                    <div class ="titre">
+                        <img src ="images/Fandom_heart-logo.png">
+                        <h1>Qui sommes-nous ?</h1>
+                    </div>
+                    <p>
+                        Bienvenue sur <b>Fandom Atlus</b>, votre source inégalée pour tout ce qui concerne le studio Atlus et ses jeux extraordinaires. <br>
+                        Nous sommes animés par une passion profonde pour l'univers créatif et captivant de ce studio légendaire, et notre objectif est de partager cette passion avec vous.<br>
+                        Chez <b>Fandom Atlus</b>, nous sommes convaincus que les jeux vidéo ont le pouvoir de nous inspirer, de nous divertir et de nous rassembler.
+                        <br>
+                    </p>
+                </section>
+                <section>
+                    <div class ="titre">
+                        <img src ="images/Fandom_heart-logo.png">
+                        <h1>Notre mission ?</h1>
+                    </div>
+                    <p>
+                        Notre mision est de rassembler les fans à travers le monde pour créer une communauté de passionés autour de l'univers fascinant des jeux. <br>
+                        Notre engagement premier est de vous comprendre, de vous informer, et vous divertir.<br>
+                        Que vous soyez un vétéran de longue date ou un nouveau venu dans l'univers d'Atlus, notre communauté accueillante est là pour vous accompagner dans votre exploration.
+                    </p>
+                </section>
+                <section>
+                    <div class ="titre">
+                        <img src ="images/Fandom_heart-logo.png">
+                        <h1>Ce que l'on trouve sur le site ?</h1>
+                    </div>
+                    <p> 
+                        Sur <b>Fandom Atlus</b> vous trouverez une mine d'informations sur le studio et ses jeux, ainsi qu'une communauté de passionés prêts à partager leurs connaissances et leurs expériences.<br>
+                        Alors n'hésitez pas et venez explorer avec nous ce qui rend chaque jeu d'Atlus si unique, et célébrons ensemble l'héritage extraordinaire de ce studio emblématique. 
+                    </p>
+                </section>
+            </div>
+            <div class ="rules">
+                <h1>Règles</h1>
+                    <ul>
+                        <li><b>Respectez les autres membres de la communauté :</b> évitez les propos offensants, les attaques personnelles et tout comportement irrespectueux.</li>
+                        <li><b>Soyez courtois et poli dans vos interactions :</b> favorisez un environnement accueillant et positif pour tous.</li>
+                        <li><b>Restez dans le sujet :</b> contribuez aux discussions en restant sur le thème du site et des sujets en cours.</li>
+                        <li><b>Signalez les comportements abusifs :</b> si vous rencontrez un comportement inapproprié, signalez-le aux modérateurs ou aux administrateurs du site.</li>
+                        <li><b>Respectez les directives du site :</b> suivez les règles spécifiques établies par les administrateurs et les modérateurs du site.</li>
+                        <li><b>Amusez-vous :</b> cet espace est bienveillant, profitez-en pour partager votre passion !</li>
+                    </ul>
+            </div>
+        </div>
+    </div>
+<!--Script Js menu mobile responsive-->
+    <script>
+        function openMenuMobile(){
+            document.getElementById("nav").classList.toggle("active");
+        }
+    </script>
+</body>
+</html>
